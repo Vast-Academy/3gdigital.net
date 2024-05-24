@@ -54,8 +54,8 @@
         section.outer3 div.all-themes {
             position: relative;
             background-color: white;
-            width: 46%;
-            height: 430px;
+            width: 710px;
+            height: 500px;
             display: flex;
             padding: 30px 15px;
             box-sizing: border-box;
@@ -89,8 +89,8 @@
         section.outer div.all-themes {
             position: relative;
             background-color: white;
-            width: 46%;
-            height: 430px;
+            width: 710px;
+            height: 500px;
             display: flex;
             padding: 30px 15px;
             box-sizing: border-box;
@@ -124,8 +124,8 @@
         section.outer4 div.all-themes {
             position: relative;
             background-color: white;
-            width: 46%;
-            height: 430px;
+            width: 710px;
+            height: 500px;
             display: flex;
             padding: 30px 15px;
             box-sizing: border-box;
@@ -159,8 +159,8 @@
         section.outer5 div.all-themes {
             position: relative;
             background-color: white;
-            width: 46%;
-            height: 430px;
+            width: 710px;
+            height: 500px;
             display: flex;
             padding: 30px 15px;
             box-sizing: border-box;
@@ -194,8 +194,8 @@
         section.outer6 div.all-themes {
             position: relative;
             background-color: white;
-            width: 46%;
-            height: 430px;
+            width: 710px;
+            height: 500px;
             display: flex;
             padding: 30px 15px;
             box-sizing: border-box;
@@ -740,6 +740,14 @@
             const popupContainer = document.getElementById('popupContainer');
             popupContainer.style.visibility = 'hidden';
         });
+
+        // Close popup when clicking outside the popup content
+    const popupContainer = document.getElementById('popupContainer');
+    popupContainer.addEventListener('click', (event) => {
+        if (event.target === popupContainer) {
+            popupContainer.style.visibility = 'hidden';
+        }
+    });
     </script>
 
 <script>
@@ -759,6 +767,14 @@
     closePopupButton3.addEventListener('click', () => {
         const popupContainer = document.getElementById('popupContainer3');
         popupContainer.style.visibility = 'hidden';
+    });
+
+       // Close popup when clicking outside the popup content
+       const popupContainer3 = document.getElementById('popupContainer3');
+    popupContainer3.addEventListener('click', (event) => {
+        if (event.target === popupContainer3) {
+            popupContainer3.style.visibility = 'hidden';
+        }
     });
 </script>
 
@@ -780,6 +796,14 @@
         const popupContainer = document.getElementById('popupContainer4');
         popupContainer.style.visibility = 'hidden';
     });
+
+    // Close popup when clicking outside the popup content
+    const popupContainer4 = document.getElementById('popupContainer4');
+    popupContainer4.addEventListener('click', (event) => {
+        if (event.target === popupContainer4) {
+            popupContainer4.style.visibility = 'hidden';
+        }
+    });
 </script>
 
 <script>
@@ -800,6 +824,14 @@
         const popupContainer = document.getElementById('popupContainer5');
         popupContainer.style.visibility = 'hidden';
     });
+
+     // Close popup when clicking outside the popup content
+     const popupContainer5 = document.getElementById('popupContainer5');
+    popupContainer5.addEventListener('click', (event) => {
+        if (event.target === popupContainer5) {
+            popupContainer5.style.visibility = 'hidden';
+        }
+    });
 </script>
 
 <script>
@@ -819,6 +851,14 @@
     closePopupButton6.addEventListener('click', () => {
         const popupContainer = document.getElementById('popupContainer6');
         popupContainer.style.visibility = 'hidden';
+    });
+
+     // Close popup when clicking outside the popup content
+     const popupContainer6 = document.getElementById('popupContainer6');
+    popupContainer6.addEventListener('click', (event) => {
+        if (event.target === popupContainer6) {
+            popupContainer6.style.visibility = 'hidden';
+        }
     });
 </script>
 

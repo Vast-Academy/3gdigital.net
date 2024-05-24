@@ -859,13 +859,13 @@ font-size: 40px;
 }
 
 .top-news .tn-img img {
-    width: 100%;
+    width: 650px;
 }
 
-.top-news .tn-img:hover img {
+/* .top-news .tn-img:hover img {
     filter: blur(3px);
     -webkit-filter: blur(3px);
-}
+} */
 
 .top-news .tn-title {
     position: absolute;

@@ -64,7 +64,7 @@
 
     // Top News Slider
     $('.tn-slider').slick({
-        autoplay: true,
+        autoplay: false,
         dots: false,
         slidesToShow: 1,
         slidesToScroll: 1,
