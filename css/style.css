@@ -375,6 +375,11 @@ font-size: 40px;
     margin-top: -35px;
 }
 
+.service-item a h4:hover{
+color:var(--primary);
+letter-spacing: 1px;
+}
+
 
 /*** Feature ***/
 @media (min-width: 992px) {
