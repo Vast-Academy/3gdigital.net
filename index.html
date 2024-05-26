@@ -191,7 +191,7 @@
             height: 400px;
         }
 
-        section.outer5 {
+        section.outer8 {
             position: fixed;
             top: 0;
             left: 0;
@@ -207,7 +207,7 @@
         }
 
 
-        section.outer5 div.all-themes {
+        section.outer8 div.all-themes {
             position: relative;
             background-color: white;
             width: 40%;
@@ -218,7 +218,7 @@
             box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
         }
 
-        section.outer5 div.all-themes div.cross-icon {
+        section.outer8 div.all-themes div.cross-icon {
             position: absolute;
             top: 10px;
             right: 5px;
@@ -226,7 +226,7 @@
             cursor: pointer;
         }
 
-        section.outer5 div.all-themes div.form {
+        section.outer8 div.all-themes div.form {
             width: 95%;
             height: 400px;
         }
@@ -307,6 +307,46 @@
         }
 
         section.outer7 div.all-themes div.form {
+            width: 95%;
+            height: 400px;
+        }
+
+        section.outer5 {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(5px);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 99999;
+            visibility: hidden;
+        }
+
+
+        section.outer5 div.all-themes {
+            position: relative;
+            background-color: white;
+            width: 40%;
+            height: 400px;
+            display: flex;
+            padding: 30px 15px;
+            box-sizing: border-box;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        }
+
+        section.outer5 div.all-themes div.cross-icon {
+            position: absolute;
+            top: 10px;
+            right: 5px;
+            font-size: 30px;
+            cursor: pointer;
+        }
+
+        section.outer5 div.all-themes div.form {
             width: 95%;
             height: 400px;
         }
@@ -549,7 +589,7 @@
                     </div>
                 </div>
             </div>
-            <div class="owl-carousel-item2 position-relative">
+            <div class="owl-carousel-item1 position-relative">
                 <img class="img-fluid" src="img/ad5.png" alt="">
                 <div class="carousel-inner">
                     <div class="container">
@@ -565,10 +605,10 @@
                                 </a>
                                 <button class="call-3 btn btn-light rounded-pill py-md-3 px-md-5 animated slideInRight">
                                     Consult with Expert</button>
-                                <section class="outer5" id="popupContainer5">
+                                <section class="outer6" id="popupContainer6">
                                     <div class="all-themes">
                                         <div class="cross-icon">
-                                            <i class="fa fa-times" id="closePopup5" aria-hidden="true"></i>
+                                            <i class="fa fa-times" id="closePopup6" aria-hidden="true"></i>
                                         </div>
                                         <br>
                                         <div class="form">
@@ -639,12 +679,12 @@
                                     class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft">
                                     Get Best price for smart devices
                                 </a>
-                                <button class="call-2 btn btn-light rounded-pill py-md-3 px-md-5 animated slideInRight">
+                                <button class="call-3 btn btn-light rounded-pill py-md-3 px-md-5 animated slideInRight">
                                     Request a Callback</button>
-                                <section class="outer6" id="popupContainer6">
+                                <section class="outer8" id="popupContainer8">
                                     <div class="all-themes">
                                         <div class="cross-icon">
-                                            <i class="fa fa-times" id="closePopup6" aria-hidden="true"></i>
+                                            <i class="fa fa-times" id="closePopup8" aria-hidden="true"></i>
                                         </div>
                                         <br>
                                         <div class="form">
@@ -719,12 +759,12 @@
                                     class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft"> See
                                     solutions
                                 </a>
-                                <button class="call-2 btn btn-light rounded-pill py-md-3 px-md-5 animated slideInRight">
+                                <button class="call btn btn-light rounded-pill py-md-3 px-md-5 animated slideInRight">
                                     Consult with Expert</button>
-                                <section class="outer5" id="popupContainer5">
+                                <section class="outer" id="popupContainer">
                                     <div class="all-themes">
                                         <div class="cross-icon">
-                                            <i class="fa fa-times" id="closePopup5" aria-hidden="true"></i>
+                                            <i class="fa fa-times" id="closePopup" aria-hidden="true"></i>
                                         </div>
                                         <br>
                                         <div class="form">
@@ -798,10 +838,10 @@
                                 </a>
                                <a href="tel:+919356393094"> <button class="btn btn-light rounded-pill py-md-3 px-md-5 animated slideInRight">
                                     Call an Expert</button></a>
-                                <section class="outer5" id="popupContainer5">
+                                <section class="outer" id="popupContainer">
                                     <div class="all-themes">
                                         <div class="cross-icon">
-                                            <i class="fa fa-times" id="closePopup5" aria-hidden="true"></i>
+                                            <i class="fa fa-times" id="closePopup" aria-hidden="true"></i>
                                         </div>
                                         <br>
                                         <div class="form">
@@ -1718,64 +1758,124 @@
 
     </script>
 
+<script>
 
-    <script>
-        // JavaScript to handle popup functionality
-        const previewButtons6 = document.querySelectorAll('div.owl-carousel-item1 .call-2');
+    // JavaScript to handle popup functionality
+    const previewButtons5 = document.querySelectorAll('div.portfolio-inner1 div.img3');
 
-        // Show popup when the "Request Callback" button is clicked
-        previewButtons6.forEach(button => {
-            button.addEventListener('click', (event) => {
-                event.stopPropagation(); // Prevent carousel item click event
-                // Show popup
-                const popupContainer = document.getElementById('popupContainer6');
-                popupContainer.style.visibility = 'visible';
-
-                // Stop the carousel
-                $('.owl-carousel').trigger('stop.owl.autoplay');
-            });
+    previewButtons5.forEach(button => {
+        button.addEventListener('click', () => {
+            // Show popup
+            const popupContainer = document.getElementById('popupContainer5');
+            popupContainer.style.visibility = 'visible';
         });
+    });
 
-        // Close popup when close button is clicked
-        const closePopupButton6 = document.getElementById('closePopup6');
-        closePopupButton6.addEventListener('click', () => {
+    // Close popup when close button is clicked
+    const closePopupButton5 = document.getElementById('closePopup5');
+    closePopupButton5.addEventListener('click', () => {
+        const popupContainer = document.getElementById('popupContainer5');
+        popupContainer.style.visibility = 'hidden';
+    });
+
+
+    // Close popup when clicking outside the popup content
+    const popupContainer5 = document.getElementById('popupContainer5');
+    popupContainer5.addEventListener('click', (event) => {
+        if (event.target === popupContainer3) {
+            popupContainer3.style.visibility = 'hidden';
+        }
+    });
+</script>
+
+<script>
+    // JavaScript to handle popup functionality
+    const previewButtons6 = document.querySelectorAll('div.owl-carousel-item1 .call-3');
+
+    // Show popup when the "Request Callback" button is clicked
+    previewButtons6.forEach(button => {
+        button.addEventListener('click', (event) => {
+            event.stopPropagation(); // Prevent carousel item click event
+            // Show popup
             const popupContainer = document.getElementById('popupContainer6');
-            popupContainer.style.visibility = 'hidden';
+            popupContainer.style.visibility = 'visible';
 
-            // Restart the carousel
-            $('.owl-carousel').trigger('play.owl.autoplay');
+            // Stop the carousel
+            $('.owl-carousel').trigger('stop.owl.autoplay');
         });
+    });
 
-    </script>
+    // Close popup when close button is clicked
+    const closePopupButton6 = document.getElementById('closePopup6');
+    closePopupButton6.addEventListener('click', () => {
+        const popupContainer = document.getElementById('popupContainer6');
+        popupContainer.style.visibility = 'hidden';
 
-    <script>
-        // JavaScript to handle popup functionality
-        const previewButtons7 = document.querySelectorAll('div.owl-carousel-item1 .call-2');
+        // Restart the carousel
+        $('.owl-carousel').trigger('play.owl.autoplay');
+    });
 
-        // Show popup when the "Request Callback" button is clicked
-        previewButtons7.forEach(button => {
-            button.addEventListener('click', (event) => {
-                event.stopPropagation(); // Prevent carousel item click event
-                // Show popup
-                const popupContainer = document.getElementById('popupContainer7');
-                popupContainer.style.visibility = 'visible';
+</script>
 
-                // Stop the carousel
-                $('.owl-carousel').trigger('stop.owl.autoplay');
-            });
-        });
+<script>
 
-        // Close popup when close button is clicked
-        const closePopupButton7 = document.getElementById('closePopup7');
-        closePopupButton7.addEventListener('click', () => {
+    // JavaScript to handle popup functionality
+    const previewButtons7 = document.querySelectorAll('div.portfolio-inner1 div.img4');
+
+    previewButtons7.forEach(button => {
+        button.addEventListener('click', () => {
+            // Show popup
             const popupContainer = document.getElementById('popupContainer7');
-            popupContainer.style.visibility = 'hidden';
-
-            // Restart the carousel
-            $('.owl-carousel').trigger('play.owl.autoplay');
+            popupContainer.style.visibility = 'visible';
         });
+    });
 
-    </script>
+    // Close popup when close button is clicked
+    const closePopupButton7 = document.getElementById('closePopup7');
+    closePopupButton7.addEventListener('click', () => {
+        const popupContainer = document.getElementById('popupContainer7');
+        popupContainer.style.visibility = 'hidden';
+    });
+
+
+    // Close popup when clicking outside the popup content
+    const popupContainer7 = document.getElementById('popupContainer7');
+    popupContainer7.addEventListener('click', (event) => {
+        if (event.target === popupContainer3) {
+            popupContainer3.style.visibility = 'hidden';
+        }
+    });
+</script>
+
+
+<script>
+    // JavaScript to handle popup functionality
+    const previewButtons8 = document.querySelectorAll('div.owl-carousel-item1 .call-3');
+
+    // Show popup when the "Request Callback" button is clicked
+    previewButtons8.forEach(button => {
+        button.addEventListener('click', (event) => {
+            event.stopPropagation(); // Prevent carousel item click event
+            // Show popup
+            const popupContainer8 = document.getElementById('popupContainer8');
+            popupContainer8.style.visibility = 'visible';
+
+            // Stop the carousel
+            $('.owl-carousel').trigger('stop.owl.autoplay');
+        });
+    });
+
+    // Close popup when close button is clicked
+    const closePopupButton8 = document.getElementById('closePopup8');
+    closePopupButton8.addEventListener('click', () => {
+        const popupContainer8 = document.getElementById('popupContainer8');
+        popupContainer8.style.visibility = 'hidden';
+
+        // Restart the carousel
+        $('.owl-carousel').trigger('play.owl.autoplay');
+    });
+
+</script>
 
     <script>
 
@@ -1808,34 +1908,6 @@
     </script>
 
 
-    <script>
-        // JavaScript to handle popup functionality
-        const previewButtons5 = document.querySelectorAll('div.owl-carousel-item2 .call-3');
-
-        // Show popup when the "Request Callback" button is clicked
-        previewButtons5.forEach(button => {
-            button.addEventListener('click', (event) => {
-                event.stopPropagation(); // Prevent carousel item click event
-                // Show popup
-                const popupContainer5 = document.getElementById('popupContainer5');
-                popupContainer5.style.visibility = 'visible';
-
-                // Stop the carousel
-                $('.owl-carousel').trigger('stop.owl.autoplay');
-            });
-        });
-
-        // Close popup when close button is clicked
-        const closePopupButton5 = document.getElementById('closePopup5');
-        closePopupButton5.addEventListener('click', () => {
-            const popupContainer5 = document.getElementById('popupContainer5');
-            popupContainer5.style.visibility = 'hidden';
-
-            // Restart the carousel
-            $('.owl-carousel').trigger('play.owl.autoplay');
-        });
-
-    </script>
 
 </body>
 
