@@ -48,19 +48,31 @@
 
 
     // Header carousel
-    $(".header-carousel").owlCarousel({
-        autoplay: true,
-        smartSpeed: 1500,
-        items: 1,
-        dots: true,
-        loop: true,
-        nav : true,
-        navText : [
-            '<i class="bi bi-chevron-left"></i>',
-            '<i class="bi bi-chevron-right"></i>'
-        ],
-        autoplayTimeout: 10000, // 10 seconds interval
+    $(document).ready(function(){
+        var owl = $(".header-carousel").owlCarousel({
+            autoplay: true,
+            smartSpeed: 1500,
+            items: 1,
+            dots: true,
+            loop: true,
+            nav: true,
+            navText: [
+                '<i class="bi bi-chevron-left"></i>',
+                '<i class="bi bi-chevron-right"></i>'
+            ],
+            autoplayTimeout: 10000, // 10 seconds interval
+            
+        });
+    
+        // Buttons par hover event handle karna
+        $(".btn1, .btn2, .owl-prev, .owl-next").hover(function() {
+            owl.trigger('stop.owl.autoplay');
+        }, function() {
+            owl.trigger('play.owl.autoplay', [10000]);
+        });
     });
+    
+
 
     // Top News Slider
     $('.tn-slider').slick({
