@@ -972,31 +972,49 @@ font-size: 40px;
     margin-top: 20px;
 }
 
-.service-details {
-    text-align: left;
+.service-details-container2 {
+    margin-top: 20px;
+    display: flex;
 }
-
-
-.detail {
-    margin-bottom: 10px;
-}
-
 
 
 .price-container {
-    margin-top: 60px;
+    /* margin-top: -50px; */
+    margin-left: -30px;
 }
+
+.price-container2 {
+    margin-top: -100px;
+    margin-left: 250px;
+}
+
 
 .original-price {
     color: #000000;
     text-decoration: line-through;
-    font-size:1.2em;
-   
+    font-size:1.2em;   
 }
-
+.original-price2 {
+    color: #000000;
+    text-decoration: line-through;
+    font-size:14px;
+}
+.original-price3 {
+    color: #000000;
+    font-size:14px;
+    margin-top: -20px;
+}
+.original-price4 {
+    color: #000000;
+    font-size:14px;
+    font-weight: normal;
+    margin-top: -30px;
+    text-align: center;
+}
+/* 
 .buttons-container {
     margin-top: 20px;
-}
+} */
 
 .btn-primary,
 .btn-danger {
@@ -1008,18 +1026,39 @@ font-size: 40px;
     text-align: left;
 }
 
+.service-description2 {
+    /* margin-top: 20px; */
+    text-align: left;
+    margin-left: 20px;
+    /* padding: 10px; */
+}
+
 .service-description p{
     margin-top: 50px;
+}
+
+div.paragraph{
+    padding: 0px 20px;
 }
 
 .service-includes-container {
     text-align: left;
     background-color: #f4f4f4;
     padding: 20px;
-    margin-top: 70px;
+    margin-top: 40px;
     border-radius: 10px;
 }
 
+.service-includes-container2 {
+    text-align: left;
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin-top: 15px;
+    width: 450px;
+    height: 250px;
+    margin-bottom: 130px;
+    border-radius: 10px;
+}
 .includes-heading {
     color: #333;
 }
@@ -1039,7 +1078,12 @@ font-size: 40px;
     font-size: 1.5em; /* Adjust font size */
 } 
 
-
+.discounted-price2 {
+    color: #4CAF50; /* Green color for discounted price */
+    font-weight: bold;
+    margin-top: -25px;
+    font-size: 1.5em; /* Adjust font size */
+}
 /* Additional styles for the remaining course sections (Semi Dynamic, Dynamic Custom, Addons Pages) */
 .section2{
   margin-top: 40px;
@@ -1102,15 +1146,16 @@ background-color: rgb(233, 230, 230);
 border: 1px solid black;
 }
 
+.container-img2 {
+    float: left;
+    /* margin: 15px; */
+    width: 180px;
+    height: 180px;
+    background-color: rgb(233, 230, 230);
+    border: 1px solid black;
+    }
 
-.container-course {
-    max-width: 800px;
-    margin: 20px;
-    text-align: center;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-}
+
 
 .container-img img{
 width: 250px;
@@ -1118,27 +1163,259 @@ height: auto;
 text-align:center;
 }
 
-.course-title {
-    margin-top: 10px;
-}
 
-.course-description {
-    text-align: left;
-    margin-top: 10px;
-}
-
-.heading-box {
-    margin-top: 20px;
-}
-
-.duration {
-    margin-top: 10px;
-    font-weight: bold;
-}
 
 .service-title {
     font-size: 1.8em;
     font-weight: bold;
     margin-top: 10px;
     padding-bottom: 10px;
+}
+.service-title2 {
+    font-size: 23px;
+    margin-top: 10px;
+}
+
+/*---------------------------------------
+  SECTION               
+-----------------------------------------*/
+.section-padding {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  
+  .section-bg {
+    background-color: var(--section-bg-color);
+  }
+  
+  .section-overlay {
+    background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    width: 100%;
+    height: 100%;
+    opacity: 0.85;
+  }
+  
+  .section-overlay + .container {
+    position: relative;
+  }
+  
+  .tab-content {
+    background-color: var(--white-color);
+    border-radius: var(--border-radius-medium);
+  }
+  
+  .nav-tabs {
+    border-bottom: 1px solid #ecf3f2;
+    margin-bottom: 40px;
+    justify-content: center;
+  }
+  
+  .nav-tabs .nav-link {
+    border-radius: 0;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    color: var(--p-color);
+    font-family: var(--title-font-family);
+    font-size: var(--btn-font-size);
+    font-weight: var(--font-weight-medium);
+    padding: 15px 25px;
+    transition: all 0.3s;
+  }
+  
+  .nav-tabs .nav-link:first-child {
+    margin-right: 20px;
+  }
+  
+  .nav-tabs .nav-item.show .nav-link, 
+  .nav-tabs .nav-link.active,
+  .nav-tabs .nav-link:focus, 
+  .nav-tabs .nav-link:hover {
+    border-bottom-color: var(--primary-color);
+    color: var(--primary-color);
+  }
+
+  .service-section {
+    max-width: 800px;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.service-section h3 {
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.service-section div.service-content {
+    width: 100%;
+    height: 50px;
+    background-color: rgba(231, 227, 227, 0.404);
+    display: flex;
+    margin-bottom: 10px;
+    /* justify-content: space-around;*/
+    align-items: center; 
+}
+
+.service-section div.service-content2 {
+    width: 100%;
+    height: 50px;
+    background-color: rgba(231, 227, 227, 0.404);
+    line-height: 1.3cm;
+    
+}
+
+.service-section div.service-content div.first{
+    display: flex;
+    flex-wrap: wrap;
+width: 570px;
+margin-left: 15px;
+}
+
+.service-section div.service-content2 p{
+    font-size: 13px;
+    margin-top: 7px;
+}
+
+.service-section div.service-content p{
+    font-size: 13px;
+    margin-top: 7px;
+}
+
+.service-section div.btns {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.btns2{
+    margin-top: -70px;
+    margin-left: 200px;
+}
+div.btns3{
+    margin-top: -50px;
+    margin-left: 450px;
+}
+
+ div.btns .button1 {
+    border: none;
+    background-color: #65B530;
+    color: white;
+    width: 150px;
+    height: 40px;
+    font-weight: bold;
+}
+
+ div.btns .button1:hover {
+    border: 1px solid #65B530;
+    background-color: #fff;
+    color: #65B530;
+}
+ div.btns .button2 {
+    border: none;
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 40px;
+    font-weight: bold;
+}
+   div.btns .button2:hover {
+    border: 1px solid black;
+    background-color: #fff;
+    color: black;
+}
+
+div.btns2 .button1 {
+    border: none;
+    background-color: #65B530;
+    color: white;
+    width: 150px;
+    height: 40px;
+    border-radius: 40px;
+}
+
+ div.btns2 .button1:hover {
+    border: 1px solid #65B530;
+    background-color: #fff;
+    color: #65B530;
+}
+ div.btns2 .button2 {
+    border: none;
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 40px;
+    border-radius: 40px;
+}
+   div.btns2 .button2:hover {
+    border: 1px solid black;
+    background-color: #fff;
+    color: black;
+}
+
+div.btns3 .button1 {
+    border: none;
+    background-color: #65B530;
+    color: white;
+    width: 150px;
+    height: 40px;
+    border-radius: 40px;
+}
+
+ div.btns3 .button1:hover {
+    border: 1px solid #65B530;
+    background-color: #fff;
+    color: #65B530;
+}
+ div.btns3 .button2 {
+    border: none;
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 40px;
+    border-radius: 40px;
+}
+   div.btns3 .button2:hover {
+    border: 1px solid black;
+    background-color: #fff;
+    color: black;
+}
+
+.btns4{
+    margin-top: 30px;
+    margin-left: 250px;
+}
+div.btns4 .button1 {
+    border: none;
+    background-color: #65B530;
+    color: white;
+    width: 150px;
+    height: 40px;
+    border-radius: 40px;
+}
+
+ div.btns4 .button1:hover {
+    border: 1px solid #65B530;
+    background-color: #fff;
+    color: #65B530;
+}
+ div.btns4 .button2 {
+    border: none;
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 40px;
+    border-radius: 40px;
+}
+   div.btns4 .button2:hover {
+    border: 1px solid black;
+    background-color: #fff;
+    color: black;
 }
