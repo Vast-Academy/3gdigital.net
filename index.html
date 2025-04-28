@@ -350,6 +350,69 @@
             width: 95%;
             height: 400px;
         }
+        .cms-panel-btn {
+    background: linear-gradient(to right, #82c341, #6ca834);
+    color: white;
+    padding: 10px 22px;
+    border-radius: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.4s ease;
+    margin-left: 15px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(108, 168, 52, 0.3);
+    border: 2px solid transparent;
+}
+
+.cms-panel-btn span {
+    position: relative;
+    z-index: 2;
+    transition: all 0.3s ease;
+}
+
+.cms-panel-btn i {
+    font-size: 14px;
+    position: relative;
+    z-index: 2;
+    transition: all 0.3s ease;
+}
+
+.cms-panel-btn:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background: white;
+    transition: all 0.4s ease;
+    z-index: 1;
+}
+
+.cms-panel-btn:hover {
+    color: #6ca834;
+    box-shadow: 0 6px 20px rgba(108, 168, 52, 0.4);
+    transform: translateY(-3px);
+    border: 2px solid #82c341;
+    text-decoration: none;
+}
+
+.cms-panel-btn:hover:before {
+    width: 100%;
+}
+
+.cms-panel-btn:hover i {
+    transform: rotate(15deg);
+}
+
+.cms-panel-btn:active {
+    transform: translateY(0);
+    box-shadow: 0 4px 8px rgba(108, 168, 52, 0.3);
+}
     </style>
 </head>
 
@@ -418,6 +481,10 @@
                 <a class="btn btn-square rounded-circle bg-light text-primary me-2"
                     href="https://youtube.com/@3gdigitalindia?si=5_VlVv6UyaCcpPiv"><i class="fab fa-youtube"></i></a>
             </div>
+            <a href="https://cms.3gdigital.net/" class="cms-panel-btn">
+                <span>CMS Panel</span>
+                <i class="fas fa-lock"></i>
+              </a>
         </div>
     </nav>
     <!-- Navbar End -->
@@ -1889,8 +1956,5 @@
         });
     </script>
 
-
-
 </body>
-
 </html>
