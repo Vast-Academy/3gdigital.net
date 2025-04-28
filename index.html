@@ -413,7 +413,50 @@
     transform: translateY(0);
     box-shadow: 0 4px 8px rgba(108, 168, 52, 0.3);
 }
-    </style>
+
+/* Hide the desktop button in mobile view */
+@media (max-width: 991.98px) {
+  .cms-panel-btn {
+    display: none;
+  }
+  
+  /* Show and style the mobile button */
+  .mobile-cms-btn {
+    display: inline-flex;
+    padding: 6px 12px;
+    margin: 0 10px 0 0;
+    font-size: 14px;
+  }
+  
+  .mobile-cms-btn span {
+    font-size: 14px;
+  }
+}
+
+/* Hide the mobile button in desktop view */
+@media (min-width: 992px) {
+  .mobile-cms-btn {
+    display: none;
+  }
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+.logo-img {
+    max-width: 200px;
+    height: auto;
+    margin-top: 18px;
+}
+
+/* Logo sizing for mobile */
+@media (max-width: 991.98px) {
+    .logo-img {
+        max-width: 150px; /* Make logo smaller on mobile */
+    }
+}
+</style>
 </head>
 
 <body id="root">
@@ -457,10 +500,17 @@
 
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 px-4 px-lg-5">
-        <a href="./cctv-plans/practice.html">
-            <div class="logo">
-            </div>
+        <a href="./" class="navbar-brand">
+            <img src="img/Logo.png" alt="3G Digital" class="logo-img">
         </a>
+
+        <!-- Add this code before the navbar-toggler button -->
+        <a href="https://cms.3gdigital.net/" class="cms-panel-btn mobile-cms-btn">
+            <span>CMS</span>
+            <i class="fas fa-lock"></i>
+          </a>
+
+        <!-- Then your existing navbar-toggler button -->
         <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
