@@ -6,5 +6,5 @@ Disallow: /admin/
 Disallow: /temp/
 Disallow: /test/
 
-# Point to your sitemap
-Sitemap: https://3gdigital.net/sitemap.xml
+# Correct sitemap URL (matches primary domain)
+Sitemap: https://www.3gdigital.net/sitemap.xml
