@@ -1,160 +1,73 @@
-<urlset xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!--
- created with Free Online Sitemap Generator www.xml-sitemaps.com 
--->
-<url>
-<loc>https://www.3gdigital.net/</loc>
-<lastmod>2025-08-14T04:11:09+00:00</lastmod>
-<priority>1.00</priority>
-</url>
-<url>
-<loc>https://www.3gdigital.net/about/</loc>
-<lastmod>2025-08-14T04:11:09+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://www.3gdigital.net/project/</loc>
-<lastmod>2025-08-14T04:11:10+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://www.3gdigital.net/services/</loc>
-<lastmod>2025-08-14T04:11:10+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://www.3gdigital.net/contact/</loc>
-<lastmod>2025-08-14T04:11:10+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://www.3gdigital.net/cctv-plans/</loc>
-<lastmod>2025-08-14T04:11:10+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://www.3gdigital.net/biometric-system/</loc>
-<lastmod>2025-08-14T04:11:10+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://www.3gdigital.net/home-office-automation/</loc>
-<lastmod>2025-08-14T04:11:10+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://www.3gdigital.net/security-alaram-system/</loc>
-<lastmod>2025-08-14T04:11:10+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://www.3gdigital.net/intercom-system/</loc>
-<lastmod>2025-08-14T04:11:11+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://www.3gdigital.net/digital-safe-lock/</loc>
-<lastmod>2025-08-14T04:11:11+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>
-https://www.3gdigital.net/wire-wireless-networking/
-</loc>
-<lastmod>2025-08-14T04:11:11+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>
-https://www.3gdigital.net/parking-management-system/
-</loc>
-<lastmod>2025-08-14T04:11:11+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://www.3gdigital.net/website-development/</loc>
-<lastmod>2025-08-14T04:11:11+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://www.3gdigital.net/about/index.html</loc>
-<lastmod>2025-08-14T04:11:11+00:00</lastmod>
-<priority>0.64</priority>
-</url>
-<url>
-<loc>https://www.3gdigital.net/project/index.html</loc>
-<lastmod>2025-08-14T04:11:12+00:00</lastmod>
-<priority>0.64</priority>
-</url>
-<url>
-<loc>https://www.3gdigital.net/services/index.html</loc>
-<lastmod>2025-08-14T04:11:12+00:00</lastmod>
-<priority>0.64</priority>
-</url>
-<url>
-<loc>https://www.3gdigital.net/contact/index.html</loc>
-<lastmod>2025-08-14T04:11:12+00:00</lastmod>
-<priority>0.64</priority>
-</url>
-<url>
-<loc>https://www.3gdigital.net/cctv-plans/index.html</loc>
-<lastmod>2025-08-14T04:11:12+00:00</lastmod>
-<priority>0.64</priority>
-</url>
-<url>
-<loc>
-https://www.3gdigital.net/biometric-system/index.html
-</loc>
-<lastmod>2025-08-14T04:11:12+00:00</lastmod>
-<priority>0.64</priority>
-</url>
-<url>
-<loc>
-https://www.3gdigital.net/home-office-automation/index.html
-</loc>
-<lastmod>2025-08-14T04:11:12+00:00</lastmod>
-<priority>0.64</priority>
-</url>
-<url>
-<loc>
-https://www.3gdigital.net/security-alaram-system/index.html
-</loc>
-<lastmod>2025-08-14T04:11:13+00:00</lastmod>
-<priority>0.64</priority>
-</url>
-<url>
-<loc>
-https://www.3gdigital.net/intercom-system/index.html
-</loc>
-<lastmod>2025-08-14T04:11:13+00:00</lastmod>
-<priority>0.64</priority>
-</url>
-<url>
-<loc>
-https://www.3gdigital.net/digital-safe-lock/index.html
-</loc>
-<lastmod>2025-08-14T04:11:13+00:00</lastmod>
-<priority>0.64</priority>
-</url>
-<url>
-<loc>
-https://www.3gdigital.net/wire-wireless-networking/index.html
-</loc>
-<lastmod>2025-08-14T04:11:13+00:00</lastmod>
-<priority>0.64</priority>
-</url>
-<url>
-<loc>
-https://www.3gdigital.net/parking-management-system/index.html
-</loc>
-<lastmod>2025-08-14T04:11:13+00:00</lastmod>
-<priority>0.64</priority>
-</url>
-<url>
-<loc>
-https://www.3gdigital.net/website-development/index.html
-</loc>
-<lastmod>2025-08-14T04:11:14+00:00</lastmod>
-<priority>0.64</priority>
-</url>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://www.3gdigital.net/</loc>
+    <lastmod>2025-08-14T04:11:09+00:00</lastmod>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>https://www.3gdigital.net/about/</loc>
+    <lastmod>2025-08-14T04:11:09+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.3gdigital.net/project/</loc>
+    <lastmod>2025-08-14T04:11:10+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.3gdigital.net/services/</loc>
+    <lastmod>2025-08-14T04:11:10+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.3gdigital.net/contact/</loc>
+    <lastmod>2025-08-14T04:11:10+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.3gdigital.net/cctv-plans/</loc>
+    <lastmod>2025-08-14T04:11:10+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.3gdigital.net/biometric-system/</loc>
+    <lastmod>2025-08-14T04:11:10+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.3gdigital.net/home-office-automation/</loc>
+    <lastmod>2025-08-14T04:11:10+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.3gdigital.net/security-alaram-system/</loc>
+    <lastmod>2025-08-14T04:11:10+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.3gdigital.net/intercom-system/</loc>
+    <lastmod>2025-08-14T04:11:11+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.3gdigital.net/digital-safe-lock/</loc>
+    <lastmod>2025-08-14T04:11:11+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.3gdigital.net/wire-wireless-networking/</loc>
+    <lastmod>2025-08-14T04:11:11+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.3gdigital.net/parking-management-system/</loc>
+    <lastmod>2025-08-14T04:11:11+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.3gdigital.net/website-development/</loc>
+    <lastmod>2025-08-14T04:11:11+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
 </urlset>
