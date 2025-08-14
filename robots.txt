@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Block unnecessary folders (only if they exist)
+Disallow: /admin/
+Disallow: /temp/
+Disallow: /test/
+
+# Point to your sitemap
+Sitemap: https://3gdigital.net/sitemap.xml
