@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>IT Solutions | 3G Digital</title>
+
+  <!-- Vendors -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+
+  <!-- Your site/template CSS -->
+  <link href="/css/style.css" rel="stylesheet" />
+
+  <!-- Page-specific sprinkles -->
+  <style>
+    .navbar .nav-link.active{color:var(--primary)!important;font-weight:600}
+    .solution-card{border:1px solid #e9ecef;border-radius:14px;overflow:hidden;background:#fff;transition:.2s transform,.2s box-shadow}
+    .solution-card:hover{transform:translateY(-3px);box-shadow:0 12px 28px rgba(0,0,0,.08)}
+    .solution-body{padding:1.25rem}
+    .solution-title{margin:0 0 .35rem 0;font-size:1.1rem}
+    .mini{font-size:.92rem;color:#6b7280}
+    .tag{display:inline-block;font-size:.78rem;background:#f1f3f5;border-radius:999px;padding:.2rem .6rem;margin:.2rem .25rem .2rem 0}
+    .btn-soft{background:#e9f7ef;border:1px solid #bfe9d1;color:#157347}
+    .btn-soft:hover{background:#dff3e9;color:#0f6b3d}
+    .check li{margin:.25rem 0}
+    .check li i{color:var(--primary);margin-right:.4rem}
+    .cta-band{background:linear-gradient(90deg,rgba(22,22,22,.85),rgba(22,22,22,.75)),url('https://images.unsplash.com/photo-1518779578993-ec3579fee39f?q=80&w=1600&auto=format&fit=crop') center/cover no-repeat;color:#fff;border-radius:16px}
+    /* One hero image only */
+    .page-header--override{
+      background: linear-gradient(rgba(22,22,22,.7), rgba(22,22,22,.7)),
+                  url('https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?q=80&w=1600&auto=format&fit=crop') center/cover no-repeat;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top black strip -->
+  <div class="container-fluid bg-dark text-light p-0">
+    <div class="row gx-0 d-none d-lg-flex">
+      <div class="col-lg-7 px-5 text-start">
+        <div class="h-100 d-inline-flex align-items-center me-4">
+          <span class="fa fa-envelope text-success me-2"></span>
+          <small>3gdigitalindia@gmail.com</small>
+        </div>
+      </div>
+      <div class="col-lg-5 px-5 text-end">
+        <div class="h-100 d-inline-flex align-items-center">
+          <span class="fa fa-phone-alt text-success me-2"></span>
+          <small>Helpline No: +91 99 88 52 52 52</small>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
+    <a href="/" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+      <img src="/img/logo.png" alt="3G Digital" style="height:40px;margin-right:8px">
+      <h2 class="m-0 text-success">3G DIGITAL</h2>
+    </a>
+
+    <button class="navbar-toggler me-4" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <div class="navbar-nav ms-auto py-4 py-lg-0">
+        <a href="/" class="nav-item nav-link">Home</a>
+        <a href="/about/" class="nav-item nav-link">About</a>
+        <a href="/project/" class="nav-item nav-link">Projects</a>
+        <a href="/services/" class="nav-item nav-link">Services</a>
+        <a href="/solutions/" class="nav-item nav-link active">Solutions</a>
+        <a href="/contact/" class="nav-item nav-link">Contact</a>
+        <a href="/blog/" class="nav-item nav-link">Blog</a>
+      </div>
+      <div class="d-none d-lg-flex align-items-center px-4">
+        <a class="text-success px-2" href="#"><i class="fab fa-facebook-f"></i></a>
+        <a class="text-success px-2" href="#"><i class="fab fa-instagram"></i></a>
+        <a class="text-success px-2" href="#"><i class="fab fa-youtube"></i></a>
+        <a href="/cms" class="btn btn-success ms-3">CMS Panel <i class="fa fa-lock ms-1"></i></a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero (single image for the page) -->
+  <div class="container-fluid page-header page-header--override py-5 mb-5">
+    <div class="container py-5">
+      <h1 class="display-5 text-white mb-3">IT Solutions</h1>
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb mb-0">
+          <li class="breadcrumb-item"><a class="text-light" href="/">Home</a></li>
+          <li class="breadcrumb-item text-light">Solutions</li>
+          <li class="breadcrumb-item active text-white" aria-current="page">IT Solutions</li>
+        </ol>
+      </nav>
+    </div>
+  </div>
+
+  <!-- Intro -->
+  <section class="py-2 py-lg-4">
+    <div class="container">
+      <div class="row align-items-center g-4">
+        <div class="col-lg-7">
+          <h2 class="h4 mb-2">Pick the solution you need</h2>
+          <p class="mini mb-0">
+            From intrusion alarms to fire safety, we design, install, and maintain systems that keep homes,
+            societies, schools, and factories safe—backed by real after-sales support.
+          </p>
+        </div>
+        <div class="col-lg-5">
+          <ul class="check list-unstyled mb-0">
+            <li><i class="fa-solid fa-check"></i> Free site survey & requirement analysis</li>
+            <li><i class="fa-solid fa-check"></i> Brand-grade hardware & neat cabling</li>
+            <li><i class="fa-solid fa-check"></i> App alerts, reports, and integrations</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cards (NO images inside) -->
+  <main class="py-3 py-lg-4">
+    <div class="container">
+      <div class="row g-4">
+
+        <!-- Security Alarm -->
+        <div class="col-12 col-md-6">
+          <article class="solution-card h-100">
+            <div class="solution-body">
+              <p class="text-muted small mb-1">Security alarm and sensors</p>
+              <h3 class="solution-title">Security Alarm &amp; Theft Prevention</h3>
+              <p class="mini mb-2">
+                Smart alarm panels, motion/door sensors, and instant mobile alerts. Works with CCTV and access control for 24×7 protection.
+              </p>
+              <div class="mb-3">
+                <span class="tag">Intrusion</span><span class="tag">24×7 Monitoring</span><span class="tag">CCTV Link</span>
+              </div>
+              <a class="btn btn-soft btn-sm" href="/solutions/security-alarm/">Learn more</a>
+              <a class="btn btn-success btn-sm ms-2" href="/contact/">Request site survey</a>
+            </div>
+          </article>
+        </div>
+
+        <!-- Parking -->
+        <div class="col-12 col-md-6">
+          <article class="solution-card h-100">
+            <div class="solution-body">
+              <p class="text-muted small mb-1">Parking management with barriers and ANPR</p>
+              <h3 class="solution-title">Parking Management System</h3>
+              <p class="mini mb-2">
+                ANPR/LPR cameras, ticketing, boom barriers, and dashboard. Faster entry/exit, occupancy view, and audit logs.
+              </p>
+              <div class="mb-3">
+                <span class="tag">ANPR</span><span class="tag">Boom Barrier</span><span class="tag">Reports</span>
+              </div>
+              <a class="btn btn-soft btn-sm" href="/solutions/parking-management/">Learn more</a>
+              <a class="btn btn-success btn-sm ms-2" href="/contact/">Get a demo</a>
+            </div>
+          </article>
+        </div>
+
+        <!-- Automatic Gates (no car image anymore) -->
+        <div class="col-12 col-md-6">
+          <article class="solution-card h-100">
+            <div class="solution-body">
+              <p class="text-muted small mb-1">Automated entry</p>
+              <h3 class="solution-title">Automatic Main Gates</h3>
+              <p class="mini mb-2">
+                Sliding/swing gate motors with remote, RFID, keypad, or mobile app. Safety sensors and manual override for reliability.
+              </p>
+              <div class="mb-3">
+                <span class="tag">Sliding/Swing</span><span class="tag">RFID</span><span class="tag">App Control</span>
+              </div>
+              <a class="btn btn-soft btn-sm" href="/solutions/automatic-gates/">Learn more</a>
+              <a class="btn btn-success btn-sm ms-2" href="/contact/">Get pricing</a>
+            </div>
+          </article>
+        </div>
+
+        <!-- Fire Hydrant & Alarms -->
+        <div class="col-12 col-md-6">
+          <article class="solution-card h-100">
+            <div class="solution-body">
+              <p class="text-muted small mb-1">Fire hydrant and alarm system</p>
+              <h3 class="solution-title">Fire Hydrant &amp; Alarms</h3>
+              <p class="mini mb-2">
+                Conventional/addressable fire alarm panels, detectors, hydrants, and evacuation alerts—installed to code and maintained.
+              </p>
+              <div class="mb-3">
+                <span class="tag">Detectors</span><span class="tag">Panels</span><span class="tag">Compliance</span>
+              </div>
+              <a class="btn btn-soft btn-sm" href="/solutions/fire-hydrant-alarms/">Learn more</a>
+              <a class="btn btn-success btn-sm ms-2" href="/contact/">Book inspection</a>
+            </div>
+          </article>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- CTA band -->
+  <section class="py-5">
+    <div class="container">
+      <div class="cta-band p-4 p-lg-5">
+        <div class="row align-items-center g-3">
+          <div class="col-lg-8">
+            <h3 class="mb-2">Not sure which solution fits your site?</h3>
+            <p class="mb-0">Tell us your space and budget. We’ll suggest hardware and share a clear quote.</p>
+          </div>
+          <div class="col-lg-4 text-lg-end">
+            <a href="/contact/" class="btn btn-success btn-lg">Get free site survey</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
